@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+  int as,ps,ar,pr;
+  int a,l,b;
+  scanf("%d%d%d",&a,&l,&b);
+  as=a*a;
+  ps=l*b;
+  ar=4*a;
+  pr=2*(l+b);
+
+  printf("Area of square :%d\nPerimeter of square:%d \n",as,ps);
+  printf("\nArea of rectangle :%d\nPerimeter of rectangle :%d",ar,pr);
+}
+
+
+*********************************************************************************
+
+Output
+
+2 4 6
+Area of square :4
+Perimeter of square:24 
+
+Area of rectangle :8
+Perimeter of rectangle :20 
